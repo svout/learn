@@ -1,5 +1,5 @@
 // OnLoadWrapper.tsx
-import { useOnLoad } from "@/components/hooks/useOnLoad";
+import { useOnLoad } from "@/hooks/useOnLoad";
 import React from "react";
 
 interface OnLoadWrapperProps {

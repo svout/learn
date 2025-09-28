@@ -1,5 +1,4 @@
 import Head from "next/head";
-import OrganizationJsonLd from "../OrganizationJsonLd";
 
 export const SeoHead = (props: { name?: string }) => {
   const name = props?.name || process.env.NEXT_PUBLIC_TITLE || "";
@@ -55,20 +54,9 @@ export const SeoHead = (props: { name?: string }) => {
         sizes="180x180"
         href="/apple-touch-icon.png"
       />
-      <link
-        rel="icon"
-        type="image/png"
-        sizes="32x32"
-        href="/favicon.png"
-      />
-      <link
-        rel="icon"
-        type="image/png"
-        sizes="16x16"
-        href="/favicon.png"
-      />
+      <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
+      <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png" />
       <link rel="manifest" href="/site.webmanifest"></link>
-      <OrganizationJsonLd />
     </Head>
   );
 };
