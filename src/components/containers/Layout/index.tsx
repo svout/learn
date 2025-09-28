@@ -1,7 +1,7 @@
 import { ReactNode, useState } from "react";
 import { Elements } from "@/components";
 import { SeoHead } from "@/components/elements/SeoHead";
-import { MenuOpenProvider } from "@/components/hooks/useMenuOpen";
+import { MenuOpenProvider } from "@/hooks/useMenuOpen";
 
 export default function Layout({
   children,

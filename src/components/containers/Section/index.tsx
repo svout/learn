@@ -1,4 +1,4 @@
-import { SectionInterface } from "@/components/types/section";
+import { SectionInterface } from "@/types/section";
 import styles from "./styles.module.scss";
 import clsx from "clsx";
 import { CSSProperties } from "react";
